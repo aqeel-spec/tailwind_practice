@@ -86,7 +86,7 @@ function FlexBox() {
         </div>
       </div>
       <div className="icon-wrap  ">
-        <h2 className="p-4">text center using span with "align-middle"</h2>
+        <h2 className="p-4">text center using span with align-middle</h2>
         <span className="icon align-middle ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ function FlexBox() {
         </span>
         <span className="icon-text align-middle">Video Conference</span>
       </div>
-      <h2 className="p-4">text center using span with "flex items-center"</h2>
+      <h2 className="p-4">text center using span with flex items-center</h2>
       <div className="icon-wrap  flex items-center ">
         <span className="icon  ">
           <svg
@@ -209,7 +209,7 @@ function FlexBox() {
           <div className="container2  flex items-start">
             <span>2</span>
             <div>
-              <h3>Why should I come maybe it's a waste of time?</h3>
+              <h3>Why should I come maybe its a waste of time?</h3>
               <p className="text-sm text-gray-400">
                 You should come to Rose this year because it will be one of the
                 most information packed events of the year.
@@ -229,7 +229,7 @@ function FlexBox() {
         </div>
       </div>
       <div className="w-full bg-teal-100 h-screen flex justify-center items-center">
-        <div className="item">I'm the center if this page</div>
+        <div className="item">Im the center if this page</div>
       </div>
       {/* <div className="w-full h-screen flex justify-center items-center">
         <div className="item">I'm at the center of this page</div>
@@ -369,7 +369,7 @@ function FlexBox() {
         <div>
           <h2>Visit to the Eiffel Tower</h2>
           <p className="mt-1">
-            There's no better start to your Paris tour than visiting the iconic
+            Theres no better start to your Paris tour than visiting the iconic
             Eiffel Tower. This is a must visit tourist spot in the whole of
             France.
           </p>
@@ -440,8 +440,8 @@ function FlexBox() {
           </div>
         </div>
         <div className="py-4">
-          "basis-0 flex-grow flex-shrink" replace these 3 with one "flex-1 "
-          working as it is{" "}
+          basis-0 flex-grow flex-shrink replace these 3 with one flex-1 working
+          as it is{" "}
         </div>
       </div>
       <header className=" flex justify-between items-center">
@@ -509,7 +509,7 @@ function FlexBox() {
           <h2>Poolside Villas</h2>
           <p>
             Enjoy your stay at our property with mesmerizing views. Relax at the
-            pool while you're pampered by our staff serving drinks and food of
+            pool while youre pampered by our staff serving drinks and food of
             your choice.
           </p>
         </div>
@@ -584,9 +584,9 @@ function FlexBox() {
         <div className="flex flex-wrap justify-center content-center">
           <div className="testimonial">
             <p>
-              "Just ordered my copy! Shruti is awesome and I suck at grid.
+              Just ordered my copy! Shruti is awesome and I suck at grid.
               <br />
-              No brainer."
+              No brainer.
             </p>
             <span>
               <strong>- Caleb Porzio</strong>
@@ -594,8 +594,8 @@ function FlexBox() {
           </div>
           <div className="testimonial">
             <p>
-              "It's the best e-book experience I've had on this subject. Might
-              even understand this Flex/Grid stuff myself after all."
+              Its the best e-book experience Ive had on this subject. Might even
+              understand this Flex/Grid stuff myself after all.
             </p>
             <span>
               <strong>- Lucian Tartea</strong>
@@ -603,8 +603,8 @@ function FlexBox() {
           </div>
           <div className="testimonial">
             <p>
-              "I think there is a 0 missing at the end of these prices. $8 for
-              this much awesomeness? It should be 800!"
+              I think there is a 0 missing at the end of these prices. $8 for
+              this much awesomeness? It should be 800.
             </p>
             <span>
               <strong>- Jimi Wikman</strong>
@@ -612,8 +612,8 @@ function FlexBox() {
           </div>
           <div className="testimonial">
             <p>
-              "I love that you have used real world examples to describe the
-              concepts which is very helpful to understand."
+              I love that you have used real world examples to describe the
+              concepts which is very helpful to understand.
             </p>
             <span>
               <strong>- Sumudu Siriwardana</strong>
@@ -621,8 +621,8 @@ function FlexBox() {
           </div>
           <div className="testimonial">
             <p>
-              "My CSS Grid abilities aren’t quite where I want them to be so I’m
-              excited to dive into the full release"
+              My CSS Grid abilities arent quite where I want them to be so Im
+              excited to dive into the full release
             </p>
             <span>
               <strong>- Jacob Foster</strong>
@@ -669,7 +669,7 @@ function FlexBox() {
             </h2>
             <p>
               Ever been in a room and felt like something was missing? Perhaps
-              it felt slightly bare and uninviting. I've got some simple tips to
+              it felt slightly bare and uninviting. Ive got some simple tips to
               help you make any room feel complete.
             </p>
             <div className="article-footer flex items-center">

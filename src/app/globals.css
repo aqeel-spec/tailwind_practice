@@ -413,6 +413,9 @@
   .pra p {
     @apply h-1 bg-gray-200 my-10;
   }
+  .liLink link {
+    @apply border-b-4 border-green-400 bg-red-100;
+  }
 }
 /* .wrapper {
     @apply bg-white w-80 mt-16 mx-auto rounded-md text-center p-10;

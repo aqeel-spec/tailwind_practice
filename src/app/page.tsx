@@ -1,36 +1,49 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="flex justify-center items-center bg-gray-300">
-        <div className="mx-4 order-last">
-          <Image
-            src="/vercel.svg"
-            className="rounded-full "
-            alt="lgo image"
-            height={150}
-            width={150}
-          />
-        </div>
-        <div className="mx-4 self-center text-center">
-          <div className="title text-5xl">Title</div>
-          <h1 className="text-6xl font-bold text-blue-600">
-            Welcome to NorthBy
-          </h1>
-          <h2 className="text-3xl font-semibold text-blue-600">
-            A premium in sight and sound
-          </h2>
-          <h3 className="">h3 class</h3>
-          <button className="my-4 px-4 py-2 border-2 border-black rounded-lg text-white bg-blue-900">
-            Learn More
-          </button>
+      <div className="flex justify-center  items-center bg-gray-300">
+        <div className="grid grid-cols-1 text-center border-b-4 liLink ">
+          <Link
+            href={"/practice/box"}
+            className="hover:bg-red-400 hover:underline-offset-4 decoration-green-400 hover:underline transition duration-200 ease-in-out"
+          >
+            Box
+          </Link>
+          <Link
+            href={"/practice/grid"}
+            className="hover:bg-red-400 hover:underline-offset-4 decoration-green-400 hover:underline transition duration-200 ease-in-out"
+          >
+            Grid
+          </Link>
+          <Link
+            href={"/practice/page_layout"}
+            className="hover:bg-red-400 hover:underline-offset-4 decoration-green-400 hover:underline transition duration-200 ease-in-out"
+          >
+            Page_Layout
+          </Link>
+          <Link
+            href={"/practice/tailwind"}
+            className="hover:bg-red-400 hover:underline-offset-4 decoration-green-400 hover:underline transition duration-200 ease-in-out"
+          >
+            tailwind
+          </Link>
+          <Link
+            href={"/practice/animation"}
+            className="hover:bg-red-400 hover:underline-offset-4 decoration-green-400 hover:underline transition duration-200 ease-in-out"
+          >
+            ANimation
+          </Link>
+          <Link
+            href={"/practice/grid"}
+            className="hover:bg-red-400 hover:underline-offset-4 decoration-green-400 hover:underline transition duration-200 ease-in-out"
+          >
+            Grid section practice
+          </Link>
         </div>
       </div>
-      <a className="hover:dark:underline hover:[mask-type:luminance]">
-        Click me
-      </a>
-      <button className="dark:md:hover:bg-fuchsia-600 ...">Save changes</button>
     </>
   );
 }
